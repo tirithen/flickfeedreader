@@ -33,7 +33,7 @@ function FlickrFeedReader(options) {
     this.flickrTag = this.options.flickTag || 'kitten';
     this.flickrBaseUrl =
         this.options.flickBaseUrl ||
-        'https://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tag=';
+        'https://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=';
     this.parent = $(this.options.parentSelector || 'body');
     this.template = null;
     this.posts = [];
