@@ -30,7 +30,7 @@ function FlickrFeedReader(options) {
     this.updateInterval = this.options.updateInterval || 5000;
     this.autoUpdateTemplate = this.options.autoUpdateTemplate || false;
     this.templateUrl = this.options.templateUrl || 'post.html';
-    this.flickrTag = this.options.flickTag || 'kitten';
+    this.flickrTag = this.options.flickTag || 'kittens';
     this.flickrBaseUrl =
         this.options.flickBaseUrl ||
         'https://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=';
