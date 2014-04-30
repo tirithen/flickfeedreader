@@ -1,0 +1,21 @@
+{
+  "name": "flickfeedreader",
+  "description": "A simple Flick feed reader used for practicing basic front-end programming",
+  "version": "0.0.1",
+  "authors": [
+    "Fredrik Söderström <tirithen@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "underscore": "~1.6.0"
+  }
+}
